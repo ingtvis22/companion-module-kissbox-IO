@@ -1,0 +1,33 @@
+{
+	"id": "Kissbox-udp",
+	"name": "Kissbox-udp",
+	"shortname": "kissbox",
+	"description": "Module to control kissbox over UDP network ",
+	"version": "2.0.0",
+	"license": "MIT",
+	"repository": "git+https://github.com/bitfocus/companion-module-kissbox-io.git",
+	"bugs": "https://github.com/bitfocus/companion-module-kissbox-io/issues",
+	"maintainers": [
+		{
+			"name": "Remon van der Lelie"
+		}
+	],
+	"legacyIds": [
+		"Kissbox"
+	],
+	"runtime": {
+		"type": "node18",
+		"api": "nodejs-ipc",
+		"apiVersion": "0.0.0",
+		"entrypoint": "../index.js"
+	},
+	"manufacturer": "Kissbox-BV",
+	"products": [
+		"IO-3",
+		"IO-8"
+	],
+	"keywords": [
+		"Input",
+		"Output"
+	]
+}

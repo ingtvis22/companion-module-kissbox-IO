@@ -1,0 +1,20 @@
+{
+	"name": "kissbox-udp",
+	"version": "2.0.0",
+	"main": "index.js",
+	"type": "module",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"license": "MIT",
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/bitfocus/companion-module-kissbox-io.git"
+	},
+	"dependencies": {
+		"@companion-module/base": "~1.0"
+	},
+	"devDependencies": {
+		"@companion-module/tools": "^1.0.2"
+	}
+}
